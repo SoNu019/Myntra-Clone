@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(0,0,0,0.5)0px 4px 12px 0px;
+    /* background-color: aqua; */
+    height: 100px;
+    
+}
+#navbarleft{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 30PX;
+    margin-left: -60px;
+    width: 800px;
+    
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: space-evenly;
+    /* display: none; */
+    color: blue;
+    position: absolute;
+    display: none;
+    background-color: aqua;
+    margin-top: 24px;
+}
+.link:hover .dropdown{
+    display: block;
+    display: flex;
+
+}
+.link:hover{
+    border-bottom: 2px solid red;
+}
+a{
+    text-decoration: none;
+    color: navy;
+    letter-spacing: 1PX;
+    font-size: 15px;
+}
+#search{
+    height: 30px;
+    width: 50px;
+    margin-top: 30px;
+    margin-right: -20px;
+    text-align: center;
+    padding-top: 5px;
+    padding: 5px;
+    border-radius: 6px 0px 0px 6px;
+    background-color: rgb(245,245,246);
+}
+input{
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 6px;
+    width: 360px;
+   margin-left: 10px;
+   margin-top: 30px;
+   background-color: rgb(245,245,246);
+}
+#navbarright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-top: 30px;
+}
+#poster{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+#coupons{
+    height:119px ;
+    width: 1519px;
+    margin-top: -20px;
+}
+#flat{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:158px ;
+    width: 760px;
+    margin-top: 20px;
+}
+#slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    height: 450px;
+    width: 300px;
+}
+#fig{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+}
+.image{
+    height: 330px;
+    width: 253px;
+}
+#fig1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+}
+#fig2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+}
+#fig3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+}
+#fig4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -10px;
+}
+#fig5{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-left: 20%;
+}
+.image1{
+    height: 330px;
+    width: 320px;
+}
+footer{
+    background-color: rgb(244, 243, 243);
+    margin: 0px 0px 30px 0px;
+    padding-top: 50px
+}
+#container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+ font-size: 15px;
+ color: grey;
+ line-height: 25px;
+}
+#cont4{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 17px;
+    color: grey;
+}
+dd{
+    margin-top: 10px;
+    margin-left: 9%;
+    font-size: 15px;
+    color: grey;
+    line-height: 18px;
+}
+ol li{
+    font-size: 15px;
+    color: grey;
+    line-height: 25px;
+    margin-left: 12%;
+    margin-right: 5%;
+   }
+   ol strong{
+    color: black;
+   }
+#cont7 p{
+    font-size: 15px;
+    color: grey;
+    line-height: 25px;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+
+
